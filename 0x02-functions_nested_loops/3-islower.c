@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks for lowercase character
- *
+ * @c: integer to print
  * Return: Always 0 (success)
  */
 
