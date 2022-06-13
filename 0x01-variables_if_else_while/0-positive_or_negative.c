@@ -26,6 +26,5 @@ else
 {
 printf("%d is zero\n", n);
 }
-putchar('\n');
 return (0);
 }
