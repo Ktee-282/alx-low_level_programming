@@ -17,7 +17,7 @@ for (k = 48; k <= 57; k++)
 {
 for (l = 48; l <= 57; l++)
 {
-if (((i + j) < (k + l)) && (i <= k))
+if (((i + j) < (k + l) && (i <= k)) || k > i)
 {
 putchar(i);
 putchar(j);
