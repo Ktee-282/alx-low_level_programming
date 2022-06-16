@@ -24,10 +24,16 @@ putchar(j);
 putchar(' ');
 putchar(k);
 putchar(l);
-if (j != 57)
+if (i + j + k + l == 227 && i == 57)
+{
+break;
+}
+else
 {
 putchar(',');
 putchar(' ');
+}
+}
 }
 }
 }
