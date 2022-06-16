@@ -17,7 +17,7 @@ if (numA < numB)
 {
 putchar(numA);
 putchar(numB);
-if (numA != 57 || numB != 57)
+if (numA != 56 || numB != 57)
 {
 putchar(',');
 putchar(' ');
