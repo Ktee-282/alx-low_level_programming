@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-	char alpha;
+char alpha;
 
-	for (alpha = 97; alpha <= 122;)
-	{
-		if (alpha == 101 || alpha == 113)
-		{
-			continue;
-		}
-		putchar(alpha);
-	}
-	putchar('\n');
-	
-	return (0);
+for (alpha = 'a'; alpha <= 'z';)
+{
+if (alpha == 'e' || alpha == 'q')
+{
+continue;
+}
+putchar(alpha);
+}
+putchar('\n');
+
+return (0);
 }
