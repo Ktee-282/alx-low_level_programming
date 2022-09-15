@@ -1,12 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
- * main - Assigns a random number to the variable n at each execution
- * Return: 0
+ * main - assigns random number to n when executed
+ * Return: Always (0) success
  */
- int main(void)
+
+int main(void)
 {
 int n;
 srand(time(0));
@@ -14,7 +15,7 @@ n = rand() - RAND_MAX / 2;
 
 if(n > 0)
 {
-prinf("%d is positive\n", n);
+printf("%d is positive\n", n);
 }
 else if(n < 0)
 {
