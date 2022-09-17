@@ -7,11 +7,12 @@
 
 int main(void)
 {
-char alpha;
+char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
+int i;
 
-for (alpha = 'a'; alpha <= 'z'; alpha++)
+for (i = 0; i < 26; i++)
 {
-_putchar(alpha);
+_putchar(alpha[i]);
 }
 
 _putchar('\n');
