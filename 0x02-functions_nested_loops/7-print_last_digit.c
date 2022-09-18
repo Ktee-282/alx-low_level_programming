@@ -13,8 +13,3 @@ if (n >= 10)
 {
 return (i);
 }
-else
-{
-break;
-}
-}
