@@ -9,15 +9,15 @@ void times_table(void)
 {
 int i, j, op;
 
-for (i = 48; i <= 57; i++)
+for (i = 0; i <= 9; i++)
 {
 _putchar(48);
-for (j = 49; j <= 57; j++)
+for (j = 1; j <= 9; j++)
 {
 op = i * j;
-_putchar(49);
+_putchar(44);
 _putchar(32);
-if (op <= 57)
+if (op <= 9)
 {
 _putchar(32);
 _putchar(op + 48);
