@@ -18,15 +18,15 @@ for (c = 48; c <= 53; c++)
 {
 for (d = 48; d <= 57; d++)
 {
+if (a >= 50 && d <= 57)
+{
+break;
+}
 _putchar(a);
 _putchar(b);
 _putchar(':');
 _putchar(c);
 _putchar(d);
-if (a == 50 && d == 57)
-{
-continue;
-}
 _putchar('\n');
 }
 }
