@@ -8,8 +8,14 @@
 
 int print_last_digit(int n)
 {
-int i = n % 10;
-if (n >= 10)
+int l;
+
+l = n % 10;
+if (n < 0)
 {
-return (i);
+return (-l);
+}
+else
+{
+return (l);
 }
