@@ -13,11 +13,11 @@ long int n1, n2, fn;
 
 n1 = 1;
 n2 = 2;
-printf("%1d, %1d", n1, n2);
+printf("%ld, %ld", n1, n2);
 for (d = 0; d < 48; d++)
 {
 fn = n1 + n2;
-printf(", %1d", fn);
+printf(", %ld", fn);
 n1 = n2;
 n2 = fn;
 }
