@@ -25,9 +25,9 @@ _putchar(str[i]);
 }
 else if (len % 2)
 {
-for (j = (len -1) / 2; j < len - 1; j++)
+for (j = (len - 1) / 2; j < (len - 1); j++)
 {
-_putchar(str[n + 1]);
+_putchar(str[j + 1]);
 }
 }
 _putchar('\n');
