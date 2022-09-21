@@ -15,9 +15,12 @@ for (i = 0; i < 10 ; i++)
 {
 for (num = 0 ; num < 15; num++)
 {
-_putchar(num);
+if (num >= 10)
+{
+_putchar(num/10 + 48);
+}
+_putchar(num%10 + 48);
 }
 _putchar('\n');
 }
-_putchar('\n');
 }
