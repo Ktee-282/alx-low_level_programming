@@ -19,4 +19,5 @@ continue;
 }
 _putchar(num);
 }
+_putchar('\n');
 }
