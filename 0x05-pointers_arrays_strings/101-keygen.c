@@ -10,7 +10,7 @@
 int main(void)
 {
 int pass[100];
-innt i, sum, n;
+int i, sum, n;
 
 sum = 0;
 
