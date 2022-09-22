@@ -16,7 +16,7 @@ int i;
 
 for (i = 48; i < n; i++)
 {
-if (i == 0)
+if (n == 0)
 {
 printf("%d", a[i]);
 }
