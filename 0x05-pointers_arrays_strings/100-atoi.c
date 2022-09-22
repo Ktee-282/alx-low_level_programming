@@ -51,5 +51,5 @@ if (d == 0)
 {
 return (0);
 }
-return (n);
+return (c);
 }
