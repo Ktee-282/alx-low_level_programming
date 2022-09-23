@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *rot13 - encodes a string using rot13
+ * print_number - encodes a string using rot13
  * @n: integer
  *
  * Return: 0
