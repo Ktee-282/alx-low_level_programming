@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *leet - encodes a string into 1337
+ * *lest - encodes a string into 1337
  * @s: pointer to char
  *
  * Return: *s
