@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 {
 	int i, num1, num2, product;
 
-	if (agrc != 3)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
