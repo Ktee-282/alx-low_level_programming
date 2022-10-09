@@ -12,6 +12,8 @@
 
 int main(int argc, char **argv)
 {
+	int i, num1, num2, sum;
+
 	if (argc == 1)
 	{
 		printf("0\n");
