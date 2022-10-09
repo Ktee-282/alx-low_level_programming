@@ -2,8 +2,10 @@
 
 /**
  * main - prints file's name, followed by a new line
+ * @argc: argument count
+ * @argv: array of strings
  *
- * Return: program's name
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
