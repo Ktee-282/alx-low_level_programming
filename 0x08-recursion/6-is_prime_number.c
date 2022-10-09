@@ -7,7 +7,7 @@
  * Return: boolean val of the state of inputs
  */
 
-int is_prime(int i, innt j)
+int is_prime(int i, int j)
 {
 	if (j == 1)
 	{
@@ -32,5 +32,5 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return (is_prime(n, n - 1));
+	return (is_prime_number(n, n - 1));
 }
