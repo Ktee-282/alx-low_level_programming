@@ -10,8 +10,12 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc == 1)
+	int sum;
+
+	for (sum = 0; sum < argc; sum++)
 	{
-		printf("%d\n", argc);
+		*argv[sum] = *argv[sum];
 	}
+	printf("%d\n", (sum - 1));
+	return (0);
 }
