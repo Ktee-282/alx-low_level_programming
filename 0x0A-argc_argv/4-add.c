@@ -12,25 +12,21 @@
 
 int main(int argc, char **argv)
 {
-	int i, num1, num2, sum;
+	int i, res;
 
-	if (argc == 1)
+	res = 0;
+
+	for (i = 0; i < argc; i++)
 	{
-		printf("0\n");
-	}
-	else if (!(argv[] <= 1000000))
-	{
-		return (printf("Error\n"), 1);
-	}
-	else
-	{
-		for (i = 0; i < argc; i++)
+		if (i > 0)
 		{
-			num1 = atoi(argv[1]);
-			num2 = atoi(argv[2]);
+			if (atoi(argv[i]) == 0)
+			{
+				return (printf("Error\n"), 1);
+			}
+			res += atoi(argv[i]);
 		}
-		sum = num1 + num2;
-		printf("%d\n", sum);
 	}
+	printf("%d\n", res);
 	return (0);
 }
