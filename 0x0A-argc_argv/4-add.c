@@ -6,7 +6,7 @@
  * @argc: first parameter
  * @argv: second parameter
  *
- * Return: 1 if one of the number 
+ * Return: 1 if one of the number
  * contains symbols that are not digits
  */
 
