@@ -14,7 +14,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *strjoin;
-	int i, j, x, y;
+	int i, j, x, y, strlen;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -48,6 +48,6 @@ char *str_concat(char *s1, char *s2)
 		x++;
 		y++;
 	}
-	strjoin[y] = '\0';
+	strjoin[x] = '\0';
 	return (strjoin);
 }
