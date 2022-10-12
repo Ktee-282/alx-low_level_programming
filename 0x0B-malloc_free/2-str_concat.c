@@ -38,13 +38,13 @@ char *str_concat(char *s1, char *s2)
 	x = 0;
 	while (s1[x] != '\0')
 	{
-		strjoin[x] = s1 [x];
+		strjoin[x] = s1[x];
 		x++;
 	}
 	y = 0;
 	while (s2[y] != '\0')
 	{
-		strjoin[y] = s2[y];
+		strjoin[x] = s2[y];
 		x++;
 		y++;
 	}
